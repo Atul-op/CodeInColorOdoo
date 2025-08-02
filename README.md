@@ -98,8 +98,11 @@ Quick Desk is a robust role-based ticketing system designed for managing interna
 
 ## 📁 Project Structure
 
-QuickDesk/ # Frontend (React)
-Backend/ # Backend (Express
+QuickDesk/
+│
+├── Frontend/         # React + Tailwind (Vite)
+│
+└── Backend/          # Node.js + Express + MongoDB
 
 ---
 
