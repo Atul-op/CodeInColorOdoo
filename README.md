@@ -98,12 +98,12 @@ Quick Desk is a robust role-based ticketing system designed for managing interna
 
 ## 📁 Project Structure
 
-QuickDesk/
-│
-├── Frontend/         # React + Tailwind (Vite)
-│
-└── Backend/          # Node.js + Express + MongoDB
-
+QuickDesk/  
+│  
+├── Frontend/         # React + Tailwind (Vite)  
+│  
+└── Backend/          # Node.js + Express + MongoDB  
+  
 ---
 
 ## 🛠️ Setup Instructions
@@ -112,12 +112,12 @@ QuickDesk/
    ```bash
    git clone https://github.com/Atul-op/CodeInColorOdoo.git
    cd CodeInColorOdoo
-2. **Backend Setup**
+2. **Backend Setup**  
    ```bash
    cd Backend
    npm install
    npm start
-3. **Frontend Setup**
+3. **Frontend Setup**  
    ```bash
    cd QuickDesk
    npm install
