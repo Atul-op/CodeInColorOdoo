@@ -1,6 +1,6 @@
 # 🎫 Quick Desk – Ticketing & Support System
 
-Quick Desk is a robust role-based ticketing system designed for managing internal support queries or customer issues with features like threaded conversations, email notifications, and upvote/downvote voting. Ideal for both enterprise and public-facing support use cases.
+Quick Desk is a robust role-based ticketing system designed for managing internal support queries or customer issues with features like threaded conversations, React-Toaster, and upvote/downvote voting. Ideal for both enterprise and public-facing support use cases.
 
 ---
 
@@ -14,9 +14,9 @@ Quick Desk is a robust role-based ticketing system designed for managing interna
   - Category
   - Optional attachment
 - 👁️ View status of their submitted tickets
-- 📧 Email notifications for:
+- 📧 Toaster for:
   - Ticket creation
-  - Ticket status updates
+  - Ticket status update
 - 💬 Reply only to their own tickets
 - 👍 Upvote / 👎 Downvote tickets
 - 📊 **Dashboard Features**:
@@ -91,7 +91,6 @@ Quick Desk is a robust role-based ticketing system designed for managing interna
 - **Backend**: Node.js + Express.js
 - **Database**: MongoDB
 - **Authentication**: JWT
-- **Email**: Nodemailer
 - **File Uploads**: Multer
 
 ---
@@ -116,7 +115,7 @@ QuickDesk/
    ```bash
    cd Backend
    npm install
-   npm start
+   npm run dev
 3. **Frontend Setup**  
    ```bash
    cd QuickDesk
